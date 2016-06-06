@@ -1,6 +1,6 @@
 const mocha = require('mocha');
 const chai = require('chai');
-const ll = require('../lib/linked-list-test');
+const ll = require('../LinkedList');
 
 describe("Linked List", function() {
   it("should add an array to a linked list", function() {
