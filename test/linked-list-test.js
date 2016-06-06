@@ -3,7 +3,6 @@ const expect = chai.expect;
 const LinkedList = require(__dirname + '/../LinkedList');
 var ll;
 describe('Linked List', function() {
-
   before(function () {
     ll = new LinkedList();
     ll.addArray(['a','b','c']);
