@@ -88,11 +88,8 @@ module.exports.prototype.size = function() {
 module.exports.prototype.toArray = function() {
   var arr = [],
     current = this._head;
-  //console.log("current", current);
   if (current == null) return arr;
-  //console.log("length", this._length);
   for (var i = 0; i < this._length; i++) {
-    //console.log('current in loop', current);
     arr.push(current.data);
     current = current.next;
   }
