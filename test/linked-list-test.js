@@ -1,4 +1,3 @@
-
 const chai = require('chai');
 const expect = chai.expect;
 const LinkedList = require(__dirname + '/../LinkedList');
