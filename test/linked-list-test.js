@@ -14,17 +14,16 @@ describe('Linked List', function() {
     expect(3).to.be.equal(ll.size());
   });
 
-  it('should insert "d" into position 0 and remove "d"', function() {
+  it('should insert, remove and get', function() {
     ll.insert('d',0);
     var arr = ll.toArray();
     expect(4).to.be.equal(ll.size());
     expect('d').to.be.equal(arr[0]);
-    //console.log('test', ll.toArray());
     ll.remove(0);
-    //console.log('test', ll.toArray());
     arr = ll.toArray();
     expect(3).to.be.equal(ll.size());
     expect('a').to.be.equal(arr[0]);
+    expect('b').to.be.equal(ll.get(1));
   });
 
 

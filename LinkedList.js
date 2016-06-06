@@ -1,3 +1,4 @@
+//reference more oriented to front end
 //https://www.nczonline.net/blog/2009/04/13/computer-science-in-javascript-linked-list/
 module.exports = function() {
   this._length = 0;
